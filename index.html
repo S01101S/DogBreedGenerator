@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog Facts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Random Dog Fact Generator</h1>
+    </header>
+
+    <main>
+        <button class="getDogButtonStyle" id="getDogButton">Get a New Doggo!</button>
+        
+        <div  id="dogContainer" class="hidden">
+
+            <img class="dogImageStyle" id="dogImage" src="" alt="A cute dog">
+            
+            <div class="dogInfoStyle" id="dogInfo">
+                <h2 id="dogName"></h2>
+
+                <p>
+                    <strong>Temperament:</strong> 
+                    <span id="dogTemperament"></span>
+                </p>
+
+                <p>
+                    <strong>Life Span:</strong> 
+                    <span id="dogLifespan"></span>
+                </p>
+
+                <p>
+                    <strong>Bred For:</strong> 
+                    <span id="dogBredFor"></span>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
